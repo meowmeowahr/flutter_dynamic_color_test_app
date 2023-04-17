@@ -265,8 +265,10 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Slider(value: 0.5, onChanged: null),
-                      Slider(value: 0.5, onChanged: (value) {}),
+                      const Expanded(
+                          child: Slider(value: 0.5, onChanged: null)),
+                      Expanded(
+                          child: Slider(value: 0.5, onChanged: (value) {})),
                     ],
                   ),
                 ],
