@@ -131,7 +131,7 @@ class _HomePageState extends State<HomePage> {
                       appState.changeThemeColor(-1);
                     },
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(84, 84), //////// HERE
+                      minimumSize: const Size(64, 64),
                     ),
                     child: const Icon(Icons.auto_awesome),
                   ),
@@ -148,7 +148,7 @@ class _HomePageState extends State<HomePage> {
                           seedColor: Colors.red, brightness: Brightness.dark));
                     },
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(84, 84),
+                      minimumSize: const Size(64, 64),
                       backgroundColor: Colors.red,
                     ),
                     child: null,
@@ -160,7 +160,7 @@ class _HomePageState extends State<HomePage> {
                           seedColor: Colors.blue, brightness: Brightness.dark));
                     },
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(84, 84),
+                      minimumSize: const Size(64, 64),
                       backgroundColor: Colors.blue,
                     ),
                     child: null,
@@ -173,7 +173,7 @@ class _HomePageState extends State<HomePage> {
                           brightness: Brightness.dark));
                     },
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(84, 84),
+                      minimumSize: const Size(64, 64),
                       backgroundColor: Colors.green,
                     ),
                     child: null,
@@ -185,7 +185,7 @@ class _HomePageState extends State<HomePage> {
                           seedColor: Colors.lime, brightness: Brightness.dark));
                     },
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(84, 84),
+                      minimumSize: const Size(64, 64),
                       backgroundColor: Colors.lime,
                     ),
                     child: null,
@@ -198,7 +198,7 @@ class _HomePageState extends State<HomePage> {
                           brightness: Brightness.dark));
                     },
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(84, 84),
+                      minimumSize: const Size(64, 64),
                       backgroundColor: Colors.deepPurple,
                     ),
                     child: null,
